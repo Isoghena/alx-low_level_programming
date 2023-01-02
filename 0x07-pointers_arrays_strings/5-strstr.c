@@ -6,7 +6,7 @@
  * @haystack: the longer string to search
  * @needle: the first occurrence of the substring
  *
- * Return: a pointer beg of substring or @Null if it not found.
+ * Return: a pointer beg of substring or @Null if it not foound.
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -14,7 +14,7 @@ char *_strstr(char *haystack, char *needle)
 
 	while (haystack[i])
 	{
-		while (neddle[j] && (haystack[i] == needle[0]))
+		while (needle[j] && (haystack[i] == needle[0]))
 		{
 			if (haystack[i + j] == needle[j])
 				j++;
