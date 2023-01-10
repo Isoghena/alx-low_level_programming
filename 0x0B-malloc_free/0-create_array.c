@@ -7,7 +7,7 @@
  * @size: size of the array to create
  * @c: char to initialize the array c
  *
- * Return: poiinter to the array (Success), Null (Error)
+ * Return: poiinter to the array (Success), NULL (Error)
  */
 char *create_array(unsigned int size, char c)
 {
@@ -15,10 +15,10 @@ char *create_array(unsigned int size, char c)
 	 unsigned int i = 0;
 
 	 if (size == 0)
-		 return (Null);
+		 return (NULL);
 	 p = (char *) malloc(sizeof(char) * size);
 
-	 if (p == Null)
+	 if (p == NULL)
 		 return (0);
 	 while (i < size)
 	{
