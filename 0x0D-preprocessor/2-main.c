@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 /**
- * main - print the name of the file where it exist
+ *main - prints the name of the file
  *
- * Return - success
- */
+ *Return: always 0
+*/
 
 int main(void)
 {
