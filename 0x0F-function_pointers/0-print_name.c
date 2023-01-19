@@ -5,11 +5,12 @@
  * @name : name of a person
  * @f : function pointer that does not return anything
  *
- * Return: always success
+ * Return: always  0 (success)
  */
 
 void print_name(char *name, void (*f)(char *));
 {
-	if (name && f)
-		f(name);
+	if (name || f)
+		return f(name);
+
 }
