@@ -6,7 +6,7 @@
  * @ht: hahs table
  * @key: key used to retrieve value
  * @value: string stored in hash table
- * Description: In case of collision, new node is added to the beginning of list
+ * Description: In case of collision,new node is added to beginning of list
  * Return: 1 if it succedded,
  * 0 otherwise
  */
